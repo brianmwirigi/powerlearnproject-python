@@ -4,13 +4,7 @@
 
 # while test_expression:
 # body of while
-# sum = 1+2+3....+n
 
-n = 10
-sum = 0
-x = int(input('enter a number'))  # integer counter
-
-while x <= n:
-    sum = sum+x
-    x = x+1  # update counter x += 1
-    print("the sum is", sum)
+x = 1  # integer
+while x < 10:
+    print(x =+ 1)
