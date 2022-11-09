@@ -8,9 +8,9 @@
 
 n = 10
 sum = 0
-x = int(input('enter a number'))  # integer counter
+x = int(input('enter a number'))  # integer counter with an (indexing variable)
 
 while x <= n:
     sum = sum+x
-    x = x+1  # update counter x += 1
     print("the sum is", sum)
+    x = x+1  # update counter x += 1
