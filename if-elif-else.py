@@ -9,6 +9,7 @@
 # 0 - 49 ==> F
 
 marks = int(input("Enter marks"))
+
 if marks >= 80 and marks <= 100:  # concatination
     print("Grade is A")
 
@@ -25,4 +26,4 @@ elif marks >= 0 and marks <= 49:
     print("grade is FAIL")
 
 else:
-    print("out of the range")
+    print("out of range")
