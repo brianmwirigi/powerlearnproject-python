@@ -8,7 +8,8 @@
 
 n = 10
 sum = 0
-x = int(input('enter a number'))  # integer counter with an (indexing variable)
+# integer counter with an (indexing variable)
+x = int(input('enter a number '))
 
 while x <= n:
     sum = sum+x

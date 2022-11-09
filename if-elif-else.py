@@ -8,7 +8,7 @@
 # 50 - 59 ==> D
 # 0 - 49 ==> F
 
-marks = int(input("Enter marks"))
+marks = int(input("Enter marks "))
 
 if marks >= 80 and marks <= 100:  # concatination
     print("Grade is A")
