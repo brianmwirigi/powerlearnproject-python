@@ -66,17 +66,19 @@ def area_of_circle():
             # global scope has a variable deeclared outside function
             # can be accessed in a functionor outside a function
 
-            global_variable = 15
+            global_variable = 15  # its use is highly discouraged
 
             def get_total_global(number1, number2):
                 total = number1 + number2
-                print(global_variable)
+                print("the global variable is", global_variable)
 
                 def double_integer():
                     double = total * 2
-                    print(double)
-                    print(global_variable)
+                    print("double of our total is", double)
+                    print("the global variable is:", global_variable)
                     double_integer()
-                    return total
+                    return ("Our total:" + str(total))  # type casting
+
+                    print(get_total_global(20, 50))
 
             # built-in scope
