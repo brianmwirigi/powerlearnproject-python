@@ -53,14 +53,14 @@ def area_of_circle():
         def get_total_enclosing(num1, num2):
             total = num1 + num2
 
-            def double_int():
+            def double_int():  # enclosing scope
                 double = total * 2  # local variable
-                print(double)
+                print(, "this is our double result:", double)
                 double_int()
                 return total
                 return ("after double operation")
 
-                print(get_total_enclosing(20, 30), "the sum is ")
+                print(get_total_enclosing(20, 30))
 
             # global scope
             # built-in scope
