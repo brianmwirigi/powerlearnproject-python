@@ -54,10 +54,11 @@ def area_of_circle():
             total = num1 + num2
 
             def double_int():
-                double = total * 2
+                double = total * 2  # local variable
                 print(double)
                 double_int()
                 return total
+                return ("after double operation")
 
                 print(get_total_enclosing(20, 30), "the sum is ")
 
