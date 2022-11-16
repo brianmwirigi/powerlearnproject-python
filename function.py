@@ -12,3 +12,11 @@
 
 def greeting():
     print("Jambo Africa. welcome to PLP")
+
+# calling a function
+# syntax
+# functionname(argument): calling a function with parameters
+# functionname() :alling a function without parameters
+
+
+greeting()  # calling a function and must be called outside where it was declared
